@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap');
+
+* {
+  border: 0;
+  margin: 0;
+ font-family: 'Jost', sans-serif;
+}
+
+p {
+
+display: inline;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-image: url(images/wallpaperHome.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.70);
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.60);
+}
+
+.escuro {
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.50);
+  height: 10%;
+  z-index: 2;
+}
+
+header nav {
+  display: flex;
+  color: white;
+  width: 50%;
+  align-items: center;
+}
+
+header nav ul {
+display: flex;
+align-items: center;
+justify-content: space-around;
+list-style: none;
+padding: 5px;
+font-size: 2vw;
+width: 100%;
+}
+
+.inic {
+  font-size: 3vw;
+}
+
+.camp {
+  font-size: 3vw;
+}
+.pers {
+  font-size: 3vw;
+}
+
+.ovoLogo {
+  width: 100%;
+  display: flex;
+}
+
+.ovoLogo img {
+  margin: auto;
+  width: 40vw;
+}
+
+header a {
+  width: 50%;
+}
+main {
+  width: 50vw;
+  margin-left: auto;
+  padding: 4%;
+  color: white;
+  font-size: 2vw;
+}
+
+main h3 {
+  padding-bottom: 5%;
+  font-size: 2.5vw;
+}
+
+.oque {
+  w
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+.CatPers{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+}
+
+.CatAlberto{
+
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: #2a1803;
+  box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.50);
+
+
+}
+
+.CatApolo{
+
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: #333333;
+  box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.50);
+
+}
+
+
+
+.CatEzger{
+
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: #283629;
+  box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.50);
+
+}
+
+.CatFalca{
+
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: #2a1e2d;
+  box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.50);
+
+}
+.CatClovis{
+
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: #270035;
+  box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.50);
+
+}
+
+.CatNox{
+
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: #5f2525;
+  box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.50);
+
+}
+
+.Perfil{
+
+  margin:2%;
+width:40%;
+}
+
+.ImgTamanho{
+
+margin-bottom:2%;
+width:100%;
+height:100%;
+
+}
+.Texto{
+
+display:flex;
+flex-direction: column;
+padding:3%;
+width: 60%;
+float: right;
+
+}
+
+.pTexto{
+
+  color:white;
+  font-size: 1vw;
+  
+  }
+
+.SaibaMais1{
+
+box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.80);
+border-radius: 10vw;
+background-color: #a95202;
+padding: 0.3vw;
+margin-top:2vw;
+margin-left: 2vw;
+width: 70%;
+text-align: center;
+
+}
+
+.SaibaMais2{
+
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.80);
+  border-radius: 10vw;
+  background-color: #e3e3e3;
+  padding: 0.3vw;
+  margin-top:2vw;
+  margin-left: 2vw;
+  width: 70%;
+  text-align: center;
+  
+  }
+
+  .SaibaMais3{
+
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.80);
+    border-radius: 10vw;
+    background-color: #5d4b6b;
+    padding: 0.3vw;
+    margin-top:2vw;
+    margin-left: 2vw;
+    width: 70%;
+    text-align: center;
+    
+    }
+
+    .SaibaMais4{
+
+      box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.80);
+      border-radius: 10vw;
+      background-color: #54842f;
+      padding: 0.3vw;
+      margin-top:2vw;
+      margin-left: 2vw;
+      width: 70%;
+      text-align: center;
+      
+      }
+
+      .SaibaMais5{
+
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.80);
+        border-radius: 10vw;
+        background-color: #8d01a4;
+        padding: 0.3vw;
+        margin-top:2vw;
+        margin-left: 2vw;
+        width: 70%;
+        text-align: center;
+        
+        }
+
+        .SaibaMais6{
+
+          box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.80);
+          border-radius: 10vw;
+          background-color: #7e1212;
+          padding: 0.3vw;
+          margin-top:2vw;
+          margin-left: 2vw;
+          width: 70%;
+          text-align: center;
+          
+          }
+
+    
+
+.pSaiba{
+
+  color:white;
+padding: 1vw;
+font-size: 2vw;
+text-shadow: 0.1vw 0.1vw 0.05vw rgba(0, 0, 0, 0.80), -0.05vw -0.05vw 0.05vw  rgba(0, 0, 0, 0.80);
+
+}
